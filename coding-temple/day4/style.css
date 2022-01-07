@@ -1,0 +1,56 @@
+.gallery{
+    margin: 500px 50px 50px 500px;
+    padding: 0px;
+    height: 100vh;
+    display: grid;
+    column-gap:15px;
+    grid-template-columns: repeat(4, 25%) ;
+    grid-template-rows: repeat(2, 10vw);
+    grid-template-areas: 
+    "photo1 photo2 photo3 photo4"
+    "photo5 photo6 photo7 photo8";
+}
+​
+​
+img{
+    width:850px;
+    height: 100;
+    align-items: center;
+    border: solid 1px;
+    border-color: lightgray;
+    object-fit:cover;
+    
+}
+​
+​
+.beats1{
+    grid-area: photo1;
+}
+​
+.amazon1{
+    grid-area: photo2;
+}
+​
+.apple1{
+    grid-area: photo3;
+}
+​
+.adidas1{
+    grid-area: photo4;
+}
+​
+.adidas{
+    grid-area: photo5;
+}
+​
+.apple{
+    grid-area: photo6;
+}
+​
+.amazon1{
+    grid-area: photo7;
+}
+​
+.beats{
+    grid-area: photo8;
+}

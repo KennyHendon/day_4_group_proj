@@ -1,0 +1,23 @@
+.container{
+    background-color:gray;
+    font-weight:bold;
+}
+
+#inner1{
+    background-color:tomato;
+
+}
+#inner2{}
+
+
+
+
+
+@media(max-width:786px){
+    .container{
+        display:grid;
+        grid-template-columns: auto, auto;
+        grid-template-rows: auto;
+        grid-template-areas: ;
+    }
+}
