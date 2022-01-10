@@ -1,0 +1,42 @@
+body{
+    background-image:url("nza_background.jpg")
+}
+
+.container{
+    background-color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 0px 50px 0px 50px;
+}
+
+.login{
+    color: white;
+    background-color: lightgray;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: 0px;
+    padding: 5px;
+    width: 50px;
+}
+
+.line{
+    color: lightgray;
+}
+
+.nav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 20px 0px 20px 0px;
+}
+
+.nav-link{
+    color: black;
+    padding: 0px;
+    margin: 10px 0px 10px 0px;
+    border-right: 1px solid  lightgray;
+}
+
+.cs{
+    border: none;
+}
+
